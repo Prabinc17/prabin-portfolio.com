@@ -32,7 +32,7 @@ Will be available after pushing this repo to GitHub and enabling Pages under Set
 © 2025 Prabin Dhakal. All rights reserved.
 ![image alt](https://github.com/Prabinc17/prabin-portfolio.com/blob/2562b130357d37ff910948559508854f7887529c/ChatGPT%20Image%20Jul%2013%2C%202025%2C%2007_30_34%20PM.png)
 ![image alt](https://github.com/Prabinc17/prabin-portfolio.com/blob/3224c3c8fed158ad1704fc79f4fec9d175dc030c/script-logo.png)
-![image alt]()
+![image alt](https://github.com/Prabinc17/prabin-portfolio.com/blob/244fbd155c18d1f0e435ea59b80d40909319bd01/full%20stack%20logo.png)
 ![image alt]()
 ![image alt]()
 ![image alt]()
