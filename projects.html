@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects - Prabin Dhakal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+
+    .projects-section {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .projects-section h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .projects-section p {
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+      color: #555;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+      padding: 20px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-title {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #34495e;
+    }
+
+    .project-desc {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      color: #666;
+    }
+
+    .tech-used {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+    .project-btn {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .project-btn:hover {
+      background-color: #1a242f;
+    }
+
+    @media (max-width: 600px) {
+      .projects-section h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="projects-section">
+    <h1>My Projects</h1>
+    <p>Here are some of the projects I’ve worked on based on my skills and experience.</p>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h2 class="project-title">Personal Portfolio Website</h2>
+        <p class="project-desc">A responsive and modern personal website to showcase my services, skills, and contact details.</p>
+        <p class="tech-used">HTML, CSS, JavaScript</p>
+        <a href="#" class="project-btn" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-title">Blog CMS Platform</h2>
+        <p class="project-desc">A full-stack blog content management system with user login, post editor, and comment system.</p>
+        <p class="tech-used">HTML, CSS, JavaScript, PHP, MySQL</p>
+        <a href="#" class="project-btn" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-title">Video Editing Demo Reel</h2>
+        <p class="project-desc">A compilation of video editing works I’ve done from 2020–2021, highlighting storytelling and transitions.</p>
+        <p class="tech-used">Adobe Premiere Pro, After Effects</p>
+        <a href="#" class="project-btn" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-title">Mobile To-Do App</h2>
+        <p class="project-desc">A clean and functional task management app with cross-platform support and local storage.</p>
+        <p class="tech-used">Flutter, Dart</p>
+        <a href="#" class="project-btn" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-title">Script Writing Portfolio</h2>
+        <p class="project-desc">A collection of scripts written for YouTube channels and digital media during my scripting phase.</p>
+        <p class="tech-used">Google Docs, Final Draft</p>
+        <a href="#" class="project-btn" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-title">E-Commerce Product Page</h2>
+        <p class="project-desc">A frontend prototype for an e-commerce website product listing and detail page.</p>
+        <p class="tech-used">HTML, CSS, JavaScript</p>
+        <a href="#" class="project-btn" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-title">Task Manager API (Node.js)</h2>
+        <p class="project-desc">A RESTful API built with Node.js and Express that supports task creation, deletion, and updates. It includes token-based authentication and MongoDB integration.</p>
+        <p class="tech-used">Node.js, Express.js, MongoDB, JWT</p>
+        <a href="#" class="project-btn" target="_blank">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
